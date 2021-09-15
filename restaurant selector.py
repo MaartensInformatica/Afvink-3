@@ -1,7 +1,9 @@
+#maak 3 variabelen aan die vragen naar drie voorkeuren
 vege = input('Are you vegetarian?: ')
 vega = input('Are you vegan?: ')
 glut = input('Are you glutenfree?: ')
 
+#Hieronder staan de mogelijkheden. We gebruiken de volgende mogelijkheid wanneer de eerste niet van toepassing is. Daarom if, elif, elif etc.
 if vege and vega and glut == 'yes':
     print('Possible restaurants: ')
     print('Corner Cafe')
