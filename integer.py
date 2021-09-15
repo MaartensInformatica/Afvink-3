@@ -7,7 +7,7 @@ if number > 0:
     
 elif number < 0:
     print('negatief')
-#is het zowel niet positief als negatief, dan is de enige andere uitkomst 0 dus daar hoef je niet eens een elif voor te gebruiken, gewoon else: print zero
+#is het noch positief noch negatief, dan is de enige andere uitkomst 0 dus daar hoef je niet eens een elif voor te gebruiken, gewoon else: print zero
 else:
     print('zero')
 #boolian voor percentageberekening
